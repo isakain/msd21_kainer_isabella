@@ -24,3 +24,4 @@ As this project was part of the first semester of my studies, it is not updated 
 
 ## Exercises
 * [Exercise 1](exercise1.md)
+* [Exercise 2](exercise2.md)

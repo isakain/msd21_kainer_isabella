@@ -19,6 +19,10 @@ Available commands:
 ## Author
 Isabella Kainer
 
+Github profile: [isakain](https://github.com/isakain)
+
+studying at university of applied sciences: [FH Joanneum](https://www.fh-joanneum.at/)
+
 ## Project status
 As this project was part of the first semester of my studies, it is not updated any longer.
 

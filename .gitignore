@@ -1,3 +1,4 @@
-# ignore all html and pdf files
+# ignore all html and pdf files and the idea folder
 *.html
 *.pdf
+.idea

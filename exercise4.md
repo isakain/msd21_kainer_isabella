@@ -25,3 +25,8 @@ For the divide-method the following scenarios have been tested:
 
 ## Test coverage
 ![Test coverage](resources/images/ex4_1.png)
+
+## Failed tests for factorial method
+![Failed tests](resources/images/ex4_2.png)
+
+Info: The last test, which checks the result for the factorial of a negative number (which should return 0 according to the assignment), does not fail because the factorial method that has not been implemented yet returns 0 by default.

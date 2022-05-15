@@ -55,4 +55,20 @@ public class CalculatorTest {
         double result = (double) -55 / 2;
         Assertions.assertEquals(result, calc.divide(-55, 2));
     }
+
+    @Test
+    public void factorialPositiveInt() {
+        int result = 5 * 4 * 3 * 2 * 1;
+        Assertions.assertEquals(result, calc.factorial(5));
+    }
+
+    @Test
+    public void factorialZero() {
+        Assertions.assertEquals(1, calc.factorial(0));
+    }
+
+    @Test
+    public void factorialNegative() {
+        Assertions.assertEquals(0, calc.factorial(-12));
+    }
 }

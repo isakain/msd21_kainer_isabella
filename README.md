@@ -26,6 +26,9 @@ studying at university of applied sciences: [FH Joanneum](https://www.fh-joanneu
 ## Project status
 As this project was part of the first semester of my studies, it is not updated any longer.
 
+## Template files
+Configuration template for log4j: [log4j configuration](src/main/resources/log4j2.xml.template)
+
 ## Exercises
 * [Exercise 1](exercise1.md)
 * [Exercise 2](exercise2.md)

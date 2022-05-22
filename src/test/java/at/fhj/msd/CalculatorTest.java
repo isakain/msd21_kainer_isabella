@@ -4,6 +4,8 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertThrows;
+
 public class CalculatorTest {
     private Calculator calc;
 
@@ -54,6 +56,11 @@ public class CalculatorTest {
     public void dividePositiveAndNegative() {
         double result = (double) -55 / 2;
         Assertions.assertEquals(result, calc.divide(-55, 2));
+    }
+
+    @Test
+    public void divideByZero() {
+        assertThrows(ArithmeticException.class, () -> {calc.divide(13, 0);});
     }
 
     @Test

@@ -34,3 +34,4 @@ Configuration template for log4j: [log4j configuration](src/main/resources/log4j
 * [Exercise 2](exercise2.md)
 * [Exercise 3](exercise3.md)
 * [Exercise 4](exercise4.md)
+* [Exercise 5](exercise5.md)

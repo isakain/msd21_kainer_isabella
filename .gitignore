@@ -1,5 +1,6 @@
 # ignore all html and pdf files and the idea folder
 *.html
 *.pdf
+*.log
 .idea
 target

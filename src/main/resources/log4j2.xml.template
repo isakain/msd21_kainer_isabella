@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Configuration status="warn">
+    <Appenders>
+        <File name="CalculatorLog" fileName="logs/calculatorlogs.log">
+            <PatternLayout>
+                <Pattern>%d{yyyy-MM-dd/HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Root level="debug">
+            <AppenderRef ref="CalculatorLog"/>
+        </Root>
+    </Loggers>
+</Configuration>

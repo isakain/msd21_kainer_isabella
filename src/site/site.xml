@@ -4,8 +4,7 @@
     <body>
         <menu name="Overview">
             <item name="Introduction" href="index.html"/>
-            <item name="Test" href="test.html"/>
-            <item name="Calculator" href="calculator.html"/>
+            <item name="Good style" href="good_style.html"/>
         </menu>
         <menu ref="reports"/>
         <menu ref="parent"/>
